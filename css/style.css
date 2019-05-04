@@ -1,0 +1,89 @@
+/* COLOR PALETTES */
+
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER SECTION */
+
+/* NAV BAR SECTION*/
+
+.nav-bar {
+    display: flex;
+    height: 50px;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/* Logo */
+
+.title {
+    text-transform: uppercase;
+}
+
+/* Hamburger Manu */
+
+#hamburger-menu {
+    display: none;
+}
+
+/* Nav-links */
+
+/* ul */
+#nav-links {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+/* li */
+.nav-links {
+    float: left;
+    display: block;
+}
+
+.nav-links a{
+    margin-right: 20px;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* NAV BAR SECTION*/
+
+/* Main Header */
+
+.main-header-image {
+ width:100%; 
+ height:auto; 
+ margin:0 auto;
+}
+
+header{
+    padding-top: 100px;
+}
+
+.header-logo-subtitle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+/* HEADER SECTION */
