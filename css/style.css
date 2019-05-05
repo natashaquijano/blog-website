@@ -71,7 +71,7 @@ a {
 /* li */
 .nav-links {
     float: left;
-    display: block;
+    display: flex;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -89,7 +89,10 @@ color: #5A725C;
 .footer {
     margin-top: 20px;
     margin-bottom: 20px;
-    justify-content: center;
+    justify-content: space-around;
+    border-top: 1px solid gainsboro;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 .footer, .secondary-footer {
@@ -99,7 +102,10 @@ display: flex;
 .content-footer{ 
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 12px;
+    justify-content: space-between;
 }
+
 
 /* END FOOTER */
 
@@ -109,7 +115,7 @@ display: flex;
   #hamburger-menu {
     margin-left: auto; 
     float: left;
-    display: block;
+    display: flex;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -119,14 +125,17 @@ display: flex;
 }
 
 .footer {
-    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     padding-bottom: 10px;
 }
 
 .content-footer {
-    /* align-content: center;
-    justify-content: center;
-    align-items: center; */
+    margin-top: 10px;
+    padding: 0px;
 }
+
 }
 
 /* END MEDIA QUERIES */

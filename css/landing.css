@@ -91,5 +91,17 @@ padding: 20px;
 /* END SECONDARY FOOTER */
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+.secondary-footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px 10px 20px;
+}
 
+.logo-secondary-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+}
 /* END MEDIA QUERIES */
