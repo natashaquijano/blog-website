@@ -22,20 +22,12 @@
 
 header{
     padding-top: 50px;
+    background-image: url('../images/landing/header/main-header-image-04.png');
+    background-size: cover;
 }
 
 .header-logo, .header-subtitle {
-      position: relative;
-      /* left: 50%;
-      transform: translate(-50%, -50%); */
-}
-
-.header-logo {
-      /* top: 30%; */
-}
-
-.header-subtitle {
-      /* top: 43%; */
+      justify-content: center;
 }
 
 /* END HEADER SECTION */
@@ -85,7 +77,6 @@ padding: 20px;
 }
 
 .content-secondary-footer {
-    /* margin: 20px; */
 }
 
 /* END SECONDARY FOOTER */
