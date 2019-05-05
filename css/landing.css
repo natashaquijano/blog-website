@@ -1,0 +1,95 @@
+/* COLOR PALETTES */
+
+/* #F3F4F3  - Light Grey*/
+/* #BBD6BD  - Light Green*/
+/* #D5BDA7 - Beige */
+/* #8B5B3A - Redish Beige*/
+/* #B8A490 - Light Brown */
+/* #877467 - Dark Brown */
+/* #5A725C - Dark Green */
+
+/* END COLOR PALETTES */
+
+/* HEADER SECTION */
+
+/* Main Header */
+
+.main-header-image {
+ width:100%; 
+ height:auto; 
+ margin:0 auto;
+}
+
+header{
+    padding-top: 50px;
+}
+
+.header-logo, .header-subtitle {
+      position: relative;
+      /* left: 50%;
+      transform: translate(-50%, -50%); */
+}
+
+.header-logo {
+      /* top: 30%; */
+}
+
+.header-subtitle {
+      /* top: 43%; */
+}
+
+/* END HEADER SECTION */
+
+/* IMAGES SECTION */
+
+.images-section {
+     width:100%; 
+}
+
+/* END IMAGES SECTION */
+
+/* OUR STORY SECTION */
+
+.our-story {
+background-color: #8B5B3A;
+color: #FFFFFF;
+margin-bottom: 5px;
+padding: 20px;
+}
+
+.story-title, .story {
+    text-align: center;
+}
+/* END OUR STORY SECTION */
+
+/* INSPIRATIONAL QUOTE SECTION */
+.inspirational-quote {
+background-color: #5A725C;
+margin-bottom: 5px;
+padding: 20px;
+}
+
+.quote {
+    text-align: center;
+     color: white;
+     font-style: italic;
+}
+
+/* END INSPIRATIONAL QUOTE SECTION */
+
+
+/* SECONDARY FOOTER */
+
+.secondary-footer {
+    margin-top: 20px;
+}
+
+.content-secondary-footer {
+    /* margin: 20px; */
+}
+
+/* END SECONDARY FOOTER */
+
+/* MEDIA QUERIES */
+
+/* END MEDIA QUERIES */

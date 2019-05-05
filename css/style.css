@@ -1,6 +1,16 @@
 /* COLOR PALETTES */
 
-/* Global */
+/* #F3F4F3  - Light Grey*/
+/* #BBD6BD  - Light Green*/
+/* #D5BDA7 - Beige */
+/* #8B5B3A - Redish Beige*/
+/* #B8A490 - Light Brown */
+/* #877467 - Dark Brown */
+/* #5A725C - Dark Green */
+
+/* END COLOR PALETTES */
+
+/* GLOBAL */
 
 * {
     box-sizing: border-box;
@@ -11,12 +21,15 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
     height: 100%;
+    background-color: #F3F4F3;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+/* END GLOBAL */
 
 /* NAV BAR SECTION*/
 
@@ -27,7 +40,7 @@ a {
     background-color: #FFFFFF;
     overflow: hidden;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #F3F4F3;
     z-index: 1;
 }
 
@@ -35,12 +48,16 @@ a {
 
 .title {
     text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Hamburger Manu */
 
 #hamburger-menu {
     display: none;
+
 }
 
 /* Nav-links */
@@ -48,50 +65,68 @@ a {
 /* ul */
 #nav-links {
     list-style-type: none;
-    margin-left: auto;
+    margin-left: auto;   
 }
 
 /* li */
 .nav-links {
     float: left;
     display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
 }
 
-/* NAV BAR SECTION*/
-
-/* HEADER SECTION */
-
-/* Main Header */
-
-.main-header-image {
- width:100%; 
- height:auto; 
- margin:0 auto;
+.nav-links:hover, .title:hover {
+color: #5A725C;
 }
 
-header{
-    padding-top: 50px;
+/* END NAV BAR SECTION*/
+
+/* FOOTER */
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
 }
 
-.header-logo, .header-subtitle {
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, -50%);
+.footer, .secondary-footer {
+display: flex;
 }
 
-.header-logo {
-      top: 30%;
+.content-footer{ 
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.header-subtitle {
-      top: 43%;
+/* END FOOTER */
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  #hamburger-menu {
+    margin-left: auto; 
+    float: left;
+    display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+#nav-links {
+    display: none;
 }
 
-/* HEADER SECTION */
-
-
-/* IMAGES SECTION */
-
-.images-section {
-     width:100%; 
+.footer {
+    display: flex;
 }
+
+.content-footer {
+    /* align-content: center;
+    justify-content: center;
+    align-items: center; */
+}
+}
+
+/* END MEDIA QUERIES */
