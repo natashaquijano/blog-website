@@ -2,6 +2,7 @@
 
 /* #F3F4F3  - Light Grey*/
 /* #BBD6BD  - Light Green*/
+/* #6F8970 - Greenish */
 /* #D5BDA7 - Beige */
 /* #8B5B3A - Redish Beige*/
 /* #B8A490 - Light Brown */
@@ -40,7 +41,7 @@ a {
     background-color: #FFFFFF;
     overflow: hidden;
     width: 100%;
-    border-bottom: 1px solid #F3F4F3;
+    border-top: 1px solid gainsboro;
     z-index: 1;
 }
 
@@ -51,6 +52,7 @@ a {
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    color: #5A725C;
 }
 
 /* Hamburger Manu */
@@ -75,11 +77,13 @@ a {
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
+    color: #5A725C;
 }
 
 .nav-links:hover, .title:hover {
-color: #5A725C;
+color: #6F8970;
+font-weight: bold;
 }
 
 /* END NAV BAR SECTION*/
@@ -87,12 +91,11 @@ color: #5A725C;
 /* FOOTER */
 
 .footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
     justify-content: space-around;
     border-top: 1px solid gainsboro;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
 }
 
 .footer, .secondary-footer {
@@ -100,10 +103,21 @@ display: flex;
 }
 
 .content-footer{ 
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px 20px 10px 20px;
     font-size: 12px;
     justify-content: space-between;
+    color: #8B5B3A;
+}
+
+.copy {
+    margin-bottom: 5px;
+}
+
+.social-links {
+  font-size: 24px;
+  margin: 10px 5px  5px 5px;
+  padding: 0 10px 0 10px;
+  color: #8B5B3A;
 }
 
 
@@ -128,12 +142,10 @@ display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10px;
 }
 
-.content-footer {
-    margin-top: 10px;
-    padding: 0px;
+.social-links {
+    flex-direction: row;
 }
 
 }
