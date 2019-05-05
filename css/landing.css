@@ -15,12 +15,6 @@
 
 /* Main Header */
 
-.main-header-image {
- width:100%; 
- height:auto; 
- margin:0 auto;
-}
-
 header{
     padding-top: 100px;
     height: 100vh;
@@ -31,21 +25,16 @@ header{
 
 .header-container{
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
 }
 
 .header-subtitle {
     text-transform: uppercase;
     color: #5A725C;
-    justify-content: center;
-    align-items: center;
-    position: static;
     padding: 40px 0;
     letter-spacing: .5rem;
     font-weight: 900;
+    font-size: 30px;
 }
 
 #header-subtitle:hover {
@@ -55,11 +44,6 @@ color:#6F8970;
 .header-logo {
 margin-top: 250px;
 }
-
-.header-subtitle {
-
-}
-
 /* END HEADER SECTION */
 
 /* IMAGES SECTION */
@@ -83,6 +67,15 @@ padding: 50px;
 .story-title, .story {
     text-align: center;
 }
+
+.story-title {
+    font-size: 24px;
+}
+
+.story {
+    font-size: 18px;
+}
+
 /* END OUR STORY SECTION */
 
 /* INSPIRATIONAL QUOTE SECTION */
@@ -90,12 +83,17 @@ padding: 50px;
 background-color: #5A725C;
 margin-bottom: 5px;
 padding: 50px;
+font-size: 18px;
 }
 
 .quote {
     text-align: center;
      color: white;
      font-style: italic;
+}
+
+.quote-author {
+    font-style: normal;
 }
 
 /* END INSPIRATIONAL QUOTE SECTION */
@@ -124,6 +122,7 @@ padding: 50px;
     text-decoration: none;
     border-radius: 2px;
     margin: 0 auto;
+    font-size: 16px;
 }
 
 .btn:hover {
@@ -152,10 +151,6 @@ padding: 50px;
 .logo-secondary-footer {
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.header-container {
-    padding: 0px 50px 0 50px;
 }
 }
 /* END MEDIA QUERIES */

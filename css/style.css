@@ -77,13 +77,12 @@ a {
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    /* font-weight: bold; */
     color: #5A725C;
 }
 
 .nav-links:hover, .title:hover {
-color: #6F8970;
-font-weight: bold;
+    color: #6F8970;
+    font-weight: bold;
 }
 
 /* END NAV BAR SECTION*/
