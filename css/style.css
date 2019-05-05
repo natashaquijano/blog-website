@@ -96,6 +96,7 @@ a {
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: #FFFFFF;
+    padding: 10px;
 }
 
 .footer, .secondary-footer {
@@ -109,10 +110,14 @@ display: flex;
     color: #8B5B3A;
 }
 
+.rights {
+    margin-bottom: 18px;
+}
+
 
 .social-links {
   font-size: 24px;
-  margin: 10px 5px  5px 5px;
+  margin: 8px 5px  5px 5px;
   padding: 0 10px 0 10px;
   color: #8B5B3A;
 }
@@ -143,6 +148,7 @@ display: flex;
 
 .social-links {
     flex-direction: row;
+    margin: 10px 5px  5px 5px;
 }
 
 }
