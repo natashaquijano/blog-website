@@ -14,28 +14,46 @@
 </head>
 
 <body>
+
     <nav class="nav-bar">
+
         <a href="index.html">
             <h1 class="title">Miné</h1>
         </a>
+
         <ul id="nav-links">
             <a href="about.html">
                 <li class="nav-links">About</li>
             </a>
+
             <a href="articles.html">
                 <li class="nav-links">Articles</li>
             </a>
-            <a href="subscribe.html">
-                <li class="nav-links">Subscribe</li>
+
+            <a href="contact.html">
+                <li class="nav-links">Contact</li>
             </a>
         </ul>
-        <i id="hamburger-menu" class="fas fa-bars"></i>
+
+        <div class="dropdown">
+            <i onclick="myFunction()" id="hamburger-menu" class="fas fa-bars dropbtn"></i>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="about.html">About</a>
+                <a href="articles.html">Articles</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
     </nav>
+
     <header class="vertical-center">
+
         <div class="header-container">
+
             <a href="index.html"><img src="images/logo/cactus-minimal.png" class="header-logo-subtitle header-logo"></a>
             <h2 class="header-logo-subtitle header-subtitle">The Minimalist Boutique</h2>
         </div>
+
     </header>
 
     <main>
@@ -75,13 +93,13 @@
 
         <section class="secondary-footer">
             <div class="footer-boxes">
-                <h3>Request a Callback</h3>
+                <h3>Contact Us</h3>
                 <br />
                 <p class="content-secondary-footer box-secondary-footer">
                     Get in touch and speak with a customer representative to learn more
                     <br />
                 </p>
-                <button class="btn">Callback</button>
+                <a href="contact.html"><button class="btn">Contact Us</button></a>
             </div>
             <div class="footer-boxes">
                 <h3>Sign Up for Newsletter</h3>
@@ -90,7 +108,7 @@
                     Subscribe to receive updates of our store's products and promotions
                     <br />
                 </p>
-                <a href="subscribe.html"><button class="btn">Newsletter</button></a>
+                <a href="contact.html"><button class="btn">Newsletter</button></a>
             </div>
         </section>
 
@@ -98,16 +116,43 @@
 
 
     <footer class="footer">
-        <p class="content-footer copy">Copyright 2019 - Natasha Quijano</p>
-        <div class="social-links">
-            <i class="social-links fab fa-instagram"></i>
-            <i class="social-links fab fa-twitter"></i>
-            <i class="social-links fab fa-snapchat-ghost"></i>
-        </div>
-        <p class="content-footer rights">All Rights Reserved</p>
+
+        <section class="instagram-footer">
+
+            <div class="follow-instagram">
+                <h3 class="follow-instagram-text">Follow our Instagram for more simplicity</h3>
+            </div>
+            <br />
+            <div class="instagram-row">
+                <div class="instagram-column">
+                    <img src="images/landing/instagram-footer/instagram-footer-images-01.png" class="instagram-images">
+                    <img src="images/landing/instagram-footer/instagram-footer-images-02.png" class="instagram-images">
+                    <img src="images/landing/instagram-footer/instagram-footer-images-03.png" class="instagram-images">
+                    <img src="images/landing/instagram-footer/instagram-footer-images-04.png" class="instagram-images">
+                    <img src="images/landing/instagram-footer/instagram-footer-images-05.png" class="instagram-images">
+                    <img src="images/landing/instagram-footer/instagram-footer-images-06.png" class="instagram-images">
+                </div>
+            </div>
+
+            <div class="social-links">
+                <i class="social-links fab fa-instagram"></i>
+                <i class="social-links fab fa-twitter"></i>
+                <i class="social-links fab fa-snapchat-ghost"></i>
+            </div>
+
+            <div class="footer-copy-rights">
+                <p class="content-footer copy">Copyright 2019 - Natasha Quijano</p>
+                <p class="content-footer rights">All Rights Reserved</p>
+            </div>
+
+        </section>
+
     </footer>
 
+    <script src="js/main.js"></script>
+
 </body>
-<script src="js/main.js"></script>
+
+
 
 </html>
