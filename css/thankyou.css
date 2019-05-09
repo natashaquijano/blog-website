@@ -1,0 +1,92 @@
+/* COLOR PALETTES */
+
+/* #F3F4F3  - Light Grey*/
+/* #BBD6BD  - Light Green*/
+/* #6F8970 - Greenish */
+/* #D5BDA7 - Beige */
+/* #8B5B3A - Redish Beige*/
+/* #B8A490 - Light Brown */
+/* #877467 - Dark Brown */
+/* #5A725C - Dark Green */
+
+/* END COLOR PALETTES */
+
+
+header{
+    padding-top: 50px;
+    height: 100vh;
+    /* background-image: none;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.header-container{
+    text-align: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 75%;
+    padding: 20px;
+     display: flex;
+    justify-content: center;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+   background-color: #5A725C;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.btn:hover {
+    background-color:#6F8970;
+}
+
+
+.submit-thankyou {
+    margin-bottom: 10px;
+}
+
+.submit-reach-out {
+    margin-bottom: 50px;
+}
+
+.title {
+   margin-bottom: 50px; 
+}
+
+/* .thankyou-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+
+@media only screen and (max-width: 700px) {
+.title{
+    display: block;
+}    
+
+.header-container {
+    height: 65%;
+}
+
+.thankyou-section {
+        margin: 0px 20px 0px 20px;
+}
+
+}
