@@ -1,0 +1,86 @@
+/* HEADER */
+
+
+header{
+    padding-top: 100px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header-container {
+    height: 90%;
+}
+
+.about-header-images {
+    margin: 10px;
+    width: 30%;
+}
+
+/* HEADER END */
+
+/* ABOUT US */
+
+.about-us-title {
+text-align: center;
+padding: 20px 20px 0px 20px;
+}
+
+.about-us-paragraph {
+text-align: center;
+padding: 0px 20px 40px 20px;
+}
+
+/* END ABOUT US */
+
+/* INSPIRATIONAL QUOTE SECTION */
+.inspirational-quote {
+background-color: #5A725C;
+margin-bottom: 5px;
+padding: 50px;
+font-size: 18px;
+}
+
+.quote {
+    text-align: center;
+     color: white;
+     font-style: italic;
+}
+
+.quote-author {
+    font-style: normal;
+}
+
+/* END INSPIRATIONAL QUOTE SECTION */
+
+/* SLIDESHOW */
+
+/* END SLIDESHOW */
+
+.about-slideshow-image {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+header{
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.about-header-images{
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.about-us-title{
+padding: 0px 20px 0px 20px;
+}
+
+
+}

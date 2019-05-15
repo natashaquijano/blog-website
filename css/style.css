@@ -156,7 +156,8 @@ justify-content: center;
 }
 
 .copy {
-margin: 20px 10px 10px 20px;display: block;
+margin: 20px 10px 10px 20px;
+display: block;
 }
 
 .instagram-images {
@@ -169,7 +170,7 @@ margin: 20px 10px 10px 20px;display: block;
 
 .social-links {
   font-size: 24px;
-   margin: 10px 5px  5px 5px;
+   margin: 15px 5px 0px 5px;
   padding: 0 10px 0 10px;
   color: #8B5B3A;
   text-align: center;
@@ -217,7 +218,7 @@ margin: 20px 10px 10px 20px;display: block;
 
 .social-links {
     flex-direction: row;
-    margin: 0px 5px  5px 5px;
+    margin: 5px 5px 0px 5px;
 }
 
 .follow-instagram-text {
@@ -230,15 +231,19 @@ display: none;
 
 .copy {
 font-size: 9px;
+margin: 10px 10px 0px 0px;
 }
 
 .rights {    
     font-size: 9px;
+    margin: 10px 10px 0px 0px;
 }
 
 .footer-copy-rights{
     margin-bottom: 10px;
 }
+
+
 
 }
 
