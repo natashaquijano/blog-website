@@ -1,3 +1,12 @@
+/* exp */
+
+.articles-recent-images:hover, .articles-trending-images:hover, .articles-slideshow-image:hover {
+opacity: .5;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+}
+
+
 /* HEADER */
 
 header {
@@ -123,7 +132,7 @@ padding: 20px 20px 20px 20px;
 @media only screen and (max-width: 550px) {
 
 .recent-responsive {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
