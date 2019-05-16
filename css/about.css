@@ -19,6 +19,7 @@ header{
 .about-header-images {
     margin: 10px;
     width: 30%;
+    margin-bottom: 60px;
 }
 
 /* HEADER END */
@@ -102,6 +103,7 @@ header{
 .about-header-images{
     flex-direction: column;
     width: 50%;
+        margin-bottom: 10px;
 
 }
 
