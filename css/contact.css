@@ -27,13 +27,17 @@ header{
     width: 75%;
     height: 75%;
     padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+      /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    /* flex-wrap: wrap; */
 }
 
-.vertical-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.contact-main{
+    padding-top: 145px;
+padding-bottom: 100px;
 }
 
 .subscribe {
