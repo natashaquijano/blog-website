@@ -13,16 +13,17 @@ header {
     padding-top: 50px;
 }
 
-.vertical-center {
+.vertical-center-01 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #FFFFFF;
+    height: 50vh;
+    background-image: url('../images/articles/header/articles-header-image-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-/* .header-container {
-    height: 90%;
-} */
 
 /* END HEADER */
 
@@ -31,7 +32,6 @@ header {
 
 .articles-slideshow-image {
     width: 100%;
-    margin-bottom: 5px;
 }
 
 /* END SLIDESHOW */
@@ -44,8 +44,8 @@ header {
 }
 
 .articles-about {
-    background-color: #6F8970;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
     padding: 20px;
 }
 

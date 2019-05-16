@@ -12,14 +12,6 @@
 /* END COLOR PALETTES */
 
 
-header{
-    padding-top: 50px;
-    height: 100vh;
-    /* background-image: none;
-    background-size: cover;
-    background-attachment: fixed; */
-}
-
 .header-container{
     text-align: center;
     flex-direction: column;
@@ -27,8 +19,9 @@ header{
     width: 75%;
     height: 75%;
     padding: 20px;
-     display: flex;
-    justify-content: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .vertical-center {
@@ -36,6 +29,15 @@ header{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.thankyou-main{
+    padding-top: 145px;
+    padding-bottom: 100px;
+}
+
+.thankyou-section {
+    padding: 25px;
 }
 
 .btn {
@@ -69,13 +71,6 @@ header{
    margin-bottom: 50px; 
 }
 
-/* .thankyou-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
-
-
 @media only screen and (max-width: 700px) {
 .title{
     display: block;
@@ -89,4 +84,14 @@ header{
         margin: 0px 20px 0px 20px;
 }
 
+}
+
+@media only screen and (max-width: 400px) {
+.btn {
+    width: 60%;
+}
+
+.submit-reach-out {
+    display: none;
+}
 }
