@@ -1,0 +1,136 @@
+/* HEADER */
+
+header {
+    padding-top: 50px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* .header-container {
+    height: 90%;
+} */
+
+/* END HEADER */
+
+
+/* SLIDESHOW */
+
+.articles-slideshow-image {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/* END SLIDESHOW */
+
+/* ARTICLES */
+
+.articles-title {
+   text-align: center;
+   padding: 20px 0px 20px 0px;
+}
+
+.articles-about {
+    background-color: #6F8970;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.articles-paragraph {
+text-align: center;
+padding: 20px 200px 20px 200px;
+}
+
+.articles-trending {
+text-align: center;
+padding: 40px 20px 20px 20px;
+}
+
+.articles-recent {
+text-align: center;
+padding: 20px 20px 20px 20px;
+}
+
+.articles-trending-recent {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+
+.articles-trending-images {
+    margin: 0px 10px 10px 10px;
+    width: 30%;
+}
+
+.articles-recent-images {
+    width: 46%;
+     margin: 0px 10px 10px 10px;
+}
+
+/* END ARTICLES */
+
+
+@media only screen and (max-width: 1630px) {
+
+.articles-paragraph {
+padding: 0px 170px 40px 170px;
+}
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+.articles-paragraph {
+padding: 0px 150px 20px 150px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+header{
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+
+.about-header-images{
+    flex-direction: column;
+    width: 50%;
+}
+
+.articles-trending-images {
+    width: 46%;
+}
+
+.about-us-title{
+padding: 0px 20px 0px 20px;
+}
+
+.articles-paragraph {
+text-align: center;
+padding: 20px 20px 20px 20px;
+}
+
+}
+
+@media only screen and (max-width: 550px) {
+
+.recent-responsive {
+    padding-bottom: 20px;
+}
+
+
+.about-us-paragraph {
+padding: 0px 20px 40px 20px;
+}
+
+
+}
+}
