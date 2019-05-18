@@ -1,0 +1,23 @@
+{
+  "name": "cactus-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natashaquijano/blog-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natashaquijano/blog-website/issues"
+  },
+  "homepage": "https://github.com/natashaquijano/blog-website#readme",
+  "dependencies": {
+    "serve": "^11.0.0"
+  }
+}
